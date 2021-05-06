@@ -43,23 +43,23 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
   </head>
   <body class="text-center">
     
 <main class="form-signin">
-  <form>
+  <form action="/" class="from-signin" method="POST">
     <img class="mb-4" src="images/logo.png" alt="" width="100" height="100">
     <h1 class="h3 mb-3 fw-normal">Sign up to my News Letter</h1>
 
     <div class="form-floating">
-      <input type="text" class="form-control top" placeholder="First Name" required autofocus>
+      <input type="text" name="fName" class="form-control top" placeholder="First Name" required autofocus>
     </div>
     <div class="form-floating">
-      <input type="text" class="form-control middle"  placeholder="Last Name">
+      <input type="text" name="lName"class="form-control middle"  placeholder="Last Name">
     </div>
     <div class="form-floating">
-        <input type="email" class="form-control bottom" placeholder="Email">
+        <input type="email" name="email" class="form-control bottom" placeholder="Email">
     </div>
 
     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Me Up</button>
